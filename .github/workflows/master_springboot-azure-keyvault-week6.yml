@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'springboot-azure-keyvault-week6'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B890B94CEA814A96B2D11FBA64581A95 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CDDF7B9A5F8E49E2ABDDD89754D5FA27 }}
           package: '*.jar'
